@@ -1,10 +1,10 @@
 # UniFormerV2
 
-This repo is the official implementation of ["UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer"]().
+This repo is the official implementation of ["UniFormerV2: Spatiotemporal Learning by Arming Image ViTs with Video UniFormer"](https://arxiv.org/abs/2211.09552).
 By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali Wang](https://scholar.google.com/citations?user=hD948dkAAAAJ), [Yinan He](https://dblp.org/pid/93/7763.html), [Yizhuo Li](https://scholar.google.com/citations?user=pyBSGjgAAAAJ), [Yi Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=Xm2M8UwAAAAJ), [Limin Wang](https://scholar.google.com/citations?user=HEuN8PcAAAAJ) and [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl).
 
-
 ## Update
+
 ***11/18/2022***
 
 All the code, models and configs are provided. Don't hesitate to open an issue if you have any problem! 🙋🏻 
