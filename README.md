@@ -5,6 +5,9 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 
 ## Update
 
+***11/19/2022***
+We give a blog in Chinese. [Zhihu Blog](https://zhuanlan.zhihu.com/p/584669411).
+
 ***11/18/2022***
 
 All the code, models and configs are provided. Don't hesitate to open an issue if you have any problem! 🙋🏻 
