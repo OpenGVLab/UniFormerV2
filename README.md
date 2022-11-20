@@ -5,9 +5,13 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 
 ## Update
 
+***11/20/2022***
+
+We give a video demo in [hugging face](https://huggingface.co/spaces/Andy1621/uniformerv2_demo). Have a try! 😄
+
 ***11/19/2022***
 
-We give a blog in Chinese. [Zhihu](https://zhuanlan.zhihu.com/p/584669411)
+We give a blog in Chinese [Zhihu](https://zhuanlan.zhihu.com/p/584669411).
 
 ***11/18/2022***
 
