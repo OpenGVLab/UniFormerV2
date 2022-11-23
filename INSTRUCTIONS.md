@@ -13,6 +13,7 @@ You can find the dataset instructions in [DATASET](DATASET.md). We have provide 
 - We adopt **sparse sampling** for all the datasets.
 - For those **scene-related** datasets (e.g., Kinetics), we **ONLY** add global UniBlocks.
 - For those **temporal-related** datasets (e.g., Sth-Sth), we adopt **ALL** the designs, including local UniBlocks, global UniBlocks and temporal downsampling.
+- If you meet problem when running the backward process, please see [issue#4](https://github.com/OpenGVLab/UniFormerV2/issues/4).
 ```yaml
 N_LAYERS: 4  # number of global UniBlocks
 MLP_DROPOUT: [0.5, 0.5, 0.5, 0.5]  # dropout for each global UniBlocks
