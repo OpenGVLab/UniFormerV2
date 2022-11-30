@@ -260,7 +260,7 @@ class Transformer(nn.Module):
                 # dpe
                 _, tmp_feats = tmp_x[:1], tmp_x[1:]
                 tmp_feats = tmp_feats.permute(1, 3, 2, 0).reshape(N, C, T_down, H, W)
-                tmp_feats = self.dpe[j](tmp_feats).view(N, C, T_down, L - 1).permute(3, 0, 2, 1).contiguous()
+                tmp_feats = self.dpe[j](tmp_feats.clone()).view(N, C, T_down, L - 1).permute(3, 0, 2, 1).contiguous()
                 tmp_x[1:] = tmp_x[1:] + tmp_feats
                 # global block
                 tmp_x = tmp_x.permute(2, 0, 1, 3).flatten(0, 1)  # T * L, N, C
