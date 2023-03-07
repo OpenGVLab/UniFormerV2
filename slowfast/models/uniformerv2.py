@@ -85,6 +85,24 @@ class Uniformerv2(nn.Module):
                     state_dict['backbone.transformer.proj.2.bias'] = state_dict['backbone.transformer.proj.2.bias'][label_map]
             self.load_state_dict(state_dict, strict=False)
 
+        if self.frozen:
+            backbone_list = [
+                # Backbone
+                'conv1', 'class_embedding', 'positional_embedding', 'ln_pre', 'transformer.resblocks'
+            ]
+            logger.info(f'Freeze List: {backbone_list}')
+            for name, p in self.backbone.named_parameters():
+                flag = False
+                for module in backbone_list:
+                    if module in name:
+                        flag = True
+                        break
+                if flag:
+                    logger.info(f'Frozen {name}')
+                    p.requires_grad = False
+                else:
+                    logger.info(f'FT {name}')
+
     def forward(self, x):
         x = x[0]
         output = self.backbone(x)
