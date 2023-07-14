@@ -6,6 +6,10 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 ## Update
 
 
+***07/14/2023***
+
+UniFormerV2 has been accepted by ICCV2023! 🎉
+
 ***02/13/2023***
 
 UniFormerV2 has been integrated into [MMAction2](https://github.com/open-mmlab/mmaction2/tree/dev-1.x/configs/recognition/uniformerv2). Training code will be provided soon! 😄
