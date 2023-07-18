@@ -68,8 +68,8 @@
 | Frozen Model         | Pretraining    | #Frame | Top-1 | Model                                                        | Shell                                                    | Config                                                       |
 | -------------------- | -------------- | ------ | ----- | ------------------------------------------------------------ | -------------------------------------------------------- | ------------------------------------------------------------ |
 | UniFormerV2-L/14@336 | CLIP-400M      | 8x1x3  | 79.6  | [ckpt](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/uniformerv2/k700/frozen_k700_uniformerv2_l14_8x336.pyth) | [run.sh](./exp/k700/frozen_k700_l14_f8x336/run.sh)       | [config.yaml](./exp/k700/frozen_k700_l14_f8x336/config.yaml) |
-| UniFormerV2-L/14@336 | CLIP-400M+K710 | 8x1x3  | 79.7  | [ckpt](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/uniformerv2/k700/frozen_k700_k710_uniformerv2_l14_8x336.pyth) | [run.sh](./exp/k700/frozen_k700+k710_l14_f8x336/run.sh)  | [config.yaml](./exp/k700/frozen_k700+k710_l14_f8x336/config.yaml)) |
-| UniFormerV2-L/14@336 | CLIP-400M+K710 | 32x3x4 | 80.8  | [ckpt](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/uniformerv2/k700/frozen_k700_k710_uniformerv2_l14_32x336.pyth) | [run.sh](./exp/k700/frozen_k700+k710_l14_f32x336/run.sh) | [config.yaml](./exp/k700/frozen_k700+k710_l14_f32x336/config.yaml)) |
+| UniFormerV2-L/14@336 | CLIP-400M+K710 | 8x1x3  | 79.7  | [ckpt](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/uniformerv2/k700/frozen_k700_k710_uniformerv2_l14_8x336.pyth) | [run.sh](./exp/k700/frozen_k700+k710_l14_f8x336/run.sh)  | [config.yaml](./exp/k700/frozen_k700+k710_l14_f8x336/config.yaml) |
+| UniFormerV2-L/14@336 | CLIP-400M+K710 | 32x3x4 | 80.8  | [ckpt](https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/uniformerv2/k700/frozen_k700_k710_uniformerv2_l14_32x336.pyth) | [run.sh](./exp/k700/frozen_k700+k710_l14_f32x336/run.sh) | [config.yaml](./exp/k700/frozen_k700+k710_l14_f32x336/config.yaml) |
 
 ## Moments in Time V1
 
