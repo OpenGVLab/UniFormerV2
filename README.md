@@ -5,6 +5,9 @@ By [Kunchang Li](https://scholar.google.com/citations?user=D4tLSbsAAAAJ), [Yali 
 
 ## Update
 
+***11/14/2023***
+
+Thanks for Innat'help [@innat](https://github.com/innat). Now our models also support [Keras](https://github.com/innat/UniFormerV2)! 😄
 
 ***07/14/2023***
 
